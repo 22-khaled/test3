@@ -1,0 +1,25 @@
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
+credentials:
+  usernames:
+    jsmith:
+      email: jsmith@gmail.com
+      name: John Smith
+      password: abc
+    khaled:
+      email: khaledtayem@gmail.com
+      name: tayem
+      password: $2b$12$e4UsfxfhtEtZRCK5rATw2.yLvH3EHBufcci6vitTnksL2jjogu1ue
+    rbriggs:
+      email: rbriggs@gmail.com
+      name: Rebecca Briggs
+      password: def
+    tayem:
+      email: khaledtayem7@gmail.com
+      name: kst
+      password: $2b$12$1sSS/wvttpD2biQ117y70eocvCqeidy6l8DyshbQgQIiNyzaaG.ei
+preauthorized:
+  emails:
+  - melsby@gmail.com
