@@ -1,10 +1,10 @@
 import streamlit as st
-from Ghazaleh import budget_app
-from Tarek import budget_app
-from Khaled import budget_app
-from Leen import budget_app
-from Sondos import budget_app
-from Husam import budget_app
+from Ghazaleh import budget_app as ghazaleh_budget_app
+from Tarek import budget_app as tarek_budget_app
+from Khaled import budget_app as khaled_budget_app
+from Leen import budget_app as leen_budget_app
+from Sondos import budget_app as sondos_budget_app
+from Husam import budget_app as husam_budget_app
 
 def main():
     st.title("My Streamlit App")
@@ -12,17 +12,17 @@ def main():
     page = st.sidebar.selectbox("Select a page", ["Ghazaleh", "Tarek", "Khaled", "Leen", "Sondos", "Husam"])
 
     if page == "Ghazaleh":
-        budget_app()
+        ghazaleh_budget_app()
     elif page == "Tarek":
-        budget_app()
+        tarek_budget_app()
     elif page == "Khaled":
-        budget_app()
+        khaled_budget_app()
     elif page == "Leen":
-        budget_app()
+        leen_budget_app()
     elif page == "Sondos":
-        budget_app()
+        sondos_budget_app()
     elif page == "Husam":
-        budget_app()
+        husam_budget_app()
 
 if __name__ == "__main__":
     main()
