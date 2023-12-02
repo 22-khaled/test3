@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from google.cloud import firestore
 
-def budget_app():
+def budget_app1():
     st.title("Budget Tracker App")
     st.divider()
 
@@ -126,5 +126,4 @@ def budget_app():
             if done_flag:
                 st.write('Done...')
                 st.write(f"Edited Value: {edited_value1}")
-
 
