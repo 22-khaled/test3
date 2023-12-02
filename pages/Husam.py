@@ -127,6 +127,3 @@ def budget_app():
                 st.write('Done...')
                 st.write(f"Edited Value: {edited_value5}")
 
-if __name__ == "__main__":
-    budget_app()
-
