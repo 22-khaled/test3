@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from google.cloud import firestore
 
-def budget_app():
+def budget_app3():
     st.title("Budget Tracker App")
     st.divider()
 
